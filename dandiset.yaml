@@ -6,11 +6,11 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  numberOfBytes: 1
+  numberOfFiles: 1
   schemaKey: AssetsSummary
 citation: Brooks, Frederick (2023) Test upload (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000446/draft
+  https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: philbrooks1@verizon.net
@@ -20,7 +20,9 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-02-17T15:19:41.350842+00:00'
+datePublished: '2023-03-02T22:12:55.686462+00:00'
 description: Testing uploading NWB data from lab acquisition.
+doi: 10.80507/dandi.123456/0.123456.1234
 id: DANDI:000446/draft
 identifier: DANDI:000446
 license:
@@ -28,6 +30,18 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000446/versions/draft/assets/
 name: Test upload
+publishedBy:
+  endDate: '2023-03-02T22:12:55.686462+00:00'
+  id: urn:uuid:abe1f4e0-2638-41f7-9b49-a66ca90235ac
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-03-02T22:12:55.686462+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:34842b43-d9e5-4da7-a55e-05e83fbf744b
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
